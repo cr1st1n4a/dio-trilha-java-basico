@@ -19,15 +19,16 @@ public class AboutMe {
         
         System.out.println("Digite sua altura");
         double altura = scanner.nextDouble();
-//*** */
-        System.out.println("oiii");
+
+        System.out.println("oiiii");
+        //#endregion
         //imprimindo os dados obtidos pelo usuario
         System.out.println("Ola, me chamo " + nome.toUpperCase() + " " + sobrenome.toUpperCase());
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
         scanner.close();   
         }
-        catch (InputMismatchException e){
+         catch (InputMismatchException e){
             System.err.println("O campo de idade e altura precisam ser numéricos");
         }
     }
